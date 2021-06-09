@@ -8,6 +8,7 @@ public class Stack<T> {
         myLinkedList.add(newNode);
     }
 
+
     //peek the top node in stack
     public INode peek() {
         return myLinkedList.head;
